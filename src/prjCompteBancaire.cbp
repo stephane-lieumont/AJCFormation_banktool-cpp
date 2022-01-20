@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="prjCompteBancaire" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/prjCompteBancaire" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../gestion-de-comptes-clients" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../Archives/ProjetCompteBancaire V2.07/src/bin/Release/prjCompteBancaire" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../gestion-de-comptes-clients" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Banque.cpp" />
+		<Unit filename="Banque.h" />
+		<Unit filename="Client.cpp" />
+		<Unit filename="Client.h" />
+		<Unit filename="Compte.cpp" />
+		<Unit filename="Compte.h" />
+		<Unit filename="Console.cpp" />
+		<Unit filename="Console.h" />
+		<Unit filename="Operation.cpp" />
+		<Unit filename="Operation.h" />
+		<Unit filename="Particulier.cpp" />
+		<Unit filename="Particulier.h" />
+		<Unit filename="Professionnel.cpp" />
+		<Unit filename="Professionnel.h" />
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

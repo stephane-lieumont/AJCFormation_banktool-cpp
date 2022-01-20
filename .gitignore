@@ -1,0 +1,12 @@
+#Ignorer les fichiers suivants
+data/
+src/bin/Debug/data/
+src/bin/Release/data/
+src/bin/Debug/*.log
+src/bin/Release/*.log
+*.bqp
+*.bqc
+*.bqm
+*.bqio
+*.bqeo
+*.log
